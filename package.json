@@ -1,0 +1,29 @@
+{
+  "name": "jsdom-global-on-import",
+  "version": "1.0.0",
+  "description": "jsdom integration on module import",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "keywords": [
+    "jsdom",
+    "node",
+    "test"
+  ],
+  "author": "Jeremy Judeaux <jeremy.judeaux@volune.net>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Volune/jsdom-global-on-import.git"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "jsdom": "*"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-import": "^1.9.2",
+    "jsdom": "^9.3.0"
+  }
+}
